@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nabil Alfahmi Labib — Continuous Improvement &amp; Industrial Engineering</title>
+<meta name="description" content="Portfolio Nabil Alfahmi Labib: mahasiswa Industrial Engineering dengan pengalaman Production Layout, Facility Planning, Engineering Design, dan Continuous Improvement di lingkungan manufaktur.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23155687'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3ENL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#155687;--ink:#243746;--mute:#657482;--tint:#F3F6F8;--line:#DCE4EA;--white:#FFFFFF;
+--serif:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;--sans:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--white);color:var(--ink);font:400 1rem/1.7 var(--sans)}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+header{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);z-index:20}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+.brand{font:700 1.05rem var(--serif);color:var(--ink);text-decoration:none;white-space:nowrap}
+nav{display:flex;gap:4px;overflow-x:auto}
+nav a{padding:6px 10px;color:var(--mute);text-decoration:none;font-size:.92rem;border-bottom:2px solid transparent;white-space:nowrap}
+nav a:hover{color:var(--ink)}
+nav a.on{color:var(--blue);border-color:var(--blue);font-weight:500}
+section{padding:72px 0;border-bottom:1px solid var(--line)}
+h1,h2,h3{font-family:var(--serif);line-height:1.2;margin:0}
+h2{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:8px}
+.sub{color:var(--mute);max-width:62ch;margin:0 0 36px}
+.hero{padding:72px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.6vw,3.9rem);font-weight:700;line-height:1.08;letter-spacing:0}
+h2{font-weight:700}h3{font-weight:600}
+.hero p.lead{font-size:1.08rem;max-width:56ch;margin:20px 0 28px}
+.name{font:500 .95rem var(--mono);color:var(--blue);margin:0 0 14px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:11px 20px;border:1.5px solid var(--blue);color:var(--blue);background:#fff;text-decoration:none;font-weight:500;cursor:pointer;font-family:inherit;font-size:.95rem}
+.btn.pri{background:var(--blue);color:#fff}
+.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.tb{background:#fff;border:1.5px solid var(--ink);font-size:.9rem}
+.tb div{display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid var(--line)}
+.tb div:last-child{border:0}
+.tb dt,.tb dd{margin:0;padding:9px 12px}
+.tb dt{font:400 .78rem var(--mono);color:var(--mute);border-right:1px solid var(--line);background:var(--tint)}
+.tb .hd{background:var(--ink);color:#fff;padding:8px 12px;font:500 .8rem var(--mono);display:block}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.about p{margin:0 0 16px}
+.note{border-left:3px solid var(--blue);background:var(--tint);padding:14px 18px;font-size:.95rem}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.filters button{border:1px solid var(--line);background:#fff;padding:7px 14px;font:inherit;font-size:.88rem;cursor:pointer;color:var(--ink)}
+.filters button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:24px}
+.card{border:1.5px solid var(--ink);background:#fff;display:flex;flex-direction:column}
+.card .top{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;border-bottom:1px solid var(--ink);font:400 .78rem var(--mono)}
+.card .body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.card h3{font-size:1.22rem}
+.cat{font-size:.85rem;color:var(--mute);margin:0}
+.card p{margin:0;font-size:.95rem}
+.card .role{font-size:.9rem;padding-top:10px;border-top:1px dashed var(--line)}
+.card .btn{margin-top:auto;text-align:center}
+.badge{font:500 .72rem var(--mono);padding:2px 8px;border:1px solid var(--blue);color:var(--blue)}
+.badge.work{background:var(--blue);color:#fff}
+.badge.academic{border-style:dashed;color:var(--mute);border-color:var(--mute)}
+.ph{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;background:var(--tint);border:1px dashed var(--mute);color:var(--mute);font:400 .78rem var(--mono);width:100%}
+.card img,dialog img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border:1px solid var(--line)}
+.job{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:26px 0;border-top:1px solid var(--line)}
+.job:first-of-type{border-top:0}
+.when{font:400 .85rem var(--mono);color:var(--mute)}
+.job h3{font-size:1.2rem;margin-bottom:2px}
+.job ul,dialog ul{margin:10px 0 0;padding-left:20px}
+.job li,dialog li{margin-bottom:6px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.skills div{border-top:3px solid var(--blue);padding-top:12px}
+.skills h3{font-size:1.1rem;margin-bottom:10px}
+.skills ul{list-style:none;margin:0;padding:0}
+.skills li{padding:6px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.skills small{color:var(--mute)}
+.contact{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1.5px solid var(--ink)}
+.contact a{display:block;padding:18px 20px;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.contact a:nth-child(odd){border-right:1px solid var(--line)}
+.contact a:hover{background:var(--tint)}
+.contact span{display:block;font:400 .78rem var(--mono);color:var(--mute)}
+.contact b{color:var(--blue);font-weight:500;word-break:break-word}
+footer{padding:28px 0;color:var(--mute);font-size:.85rem}
+dialog{width:min(820px,94vw);max-height:90vh;border:1.5px solid var(--ink);padding:0;background:#fff;color:var(--ink)}
+dialog::backdrop{background:rgba(36,55,70,.55)}
+dialog .bar{display:flex;justify-content:space-between;align-items:center;padding:10px 20px;background:var(--ink);color:#fff;font:400 .8rem var(--mono);position:sticky;top:0}
+dialog .bar button{background:none;border:1px solid #fff;color:#fff;padding:4px 12px;cursor:pointer;font:inherit}
+dialog .in{padding:24px 28px 32px}
+dialog h2{font-size:1.7rem}
+dialog h4{font:500 .85rem var(--mono);color:var(--blue);margin:24px 0 4px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+dialog p{margin:6px 0}
+.todo{color:var(--mute);font-style:italic;background:var(--tint);padding:8px 12px;border-left:3px solid var(--mute)}
+@media(max-width:820px){.hero .wrap,.about,.skills{grid-template-columns:1fr}.job{grid-template-columns:1fr;gap:6px}.contact{grid-template-columns:1fr}.contact a:nth-child(odd){border-right:0}section{padding:52px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<header><div class="wrap">
+<a class="brand" href="#home">Nabil Alfahmi Labib</a>
+<nav aria-label="Navigasi utama">
+<a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</nav></div></header>
+
+<main id="main">
+<section id="home" class="hero"><div class="wrap">
+<div>
+<p class="name">Industrial Engineering · Subang, Indonesia</p>
+<h1>Engineering Practical Improvements for Manufacturing Operations.</h1>
+<p class="lead">Mahasiswa Industrial Engineering dengan pengalaman langsung di production layout, perancangan equipment, dan workplace improvement. Saya membangun pendekatan yang sistematis terhadap proses manufaktur dan efisiensi operasional.</p>
+<div class="btns">
+<a class="btn pri" href="#projects">Explore Projects</a>
+<a class="btn" href="https://drive.google.com/file/d/1FNogRhrh3VLDQW0hsPABeX9MA3orVOz/view?usp=sharing" target="_blank" rel="noopener">View CV</a>
+<a class="btn" href="#contact">Contact Me</a>
+</div></div>
+<dl class="tb" style="margin:0" aria-label="Ringkasan profil">
+<span class="hd">PROFILE / REV.01</span>
+<div><dt>Nama</dt><dd>Nabil Alfahmi Labib</dd></div>
+<div><dt>Saat ini</dt><dd>Mechanical &amp; Layout Drafter, sejak Juni 2024</dd></div>
+<div><dt>Studi</dt><dd>S1 Industrial Engineering, konsentrasi Manufacturing</dd></div>
+<div><dt>Fokus</dt><dd>Facility Planning, Engineering Design, Continuous Improvement</dd></div>
+<div><dt>Tools</dt><dd>SketchUp, ZW3D, AutoCAD</dd></div>
+</dl></div></section>
+
+<section id="about"><div class="wrap">
+<h2>About</h2>
+<p class="sub">Praktisi yang berkembang di antara engineering design, operasi manufaktur, dan Industrial Engineering.</p>
+<div class="about">
+<div>
+<p>Pekerjaan harian saya adalah merancang production layout dan equipment pendukung proses di lingkungan manufaktur. Setiap perubahan layout atau equipment berangkat dari kebutuhan improvement di lapangan, sehingga saya terlibat dari tahap riset kebutuhan, perhitungan, pembuatan drawing, sampai equipment siap dipakai dan diimplementasikan.</p>
+<p>Seluruh drawing untuk equipment yang dibuat oleh workshop fabrikasi in-house disiapkan oleh saya.</p>
+</div>
+<div>
+<p>Di sisi akademik, saya mempelajari Industrial Engineering dengan konsentrasi Manufacturing. Pengalaman di layout dan equipment membuat saya tertarik pada Workflow Analysis, Lean Manufacturing, dan Continuous Improvement, dan minat itu mulai saya praktikkan lewat proyek tim seperti Value Stream Mapping dan QCC.</p>
+<p class="note">Saya masih berkembang. Portfolio ini memisahkan dengan jelas pekerjaan di tempat kerja, proyek tim, proyek akademik, dan solusi yang masih berupa rancangan.</p>
+</div></div></div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<p class="sub">Lima proyek, diurutkan dari pekerjaan inti. Label status menunjukkan jenis keterlibatan: pekerjaan di tempat kerja, proyek tim, atau proyek akademik.</p>
+<div class="filters" role="group" aria-label="Filter proyek">
+<button data-f="all" aria-pressed="true">All</button>
+<button data-f="work" aria-pressed="false">Applied in Workplace</button>
+<button data-f="team" aria-pressed="false">Team Project</button>
+<button data-f="academic" aria-pressed="false">Academic Project</button>
+</div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<p class="sub">Tanggung jawab dan kontribusi, bukan klaim hasil terukur.</p>
+<div class="job"><div class="when">Juni 2024 – sekarang</div><div>
+<h3>Mechanical &amp; Layout Drafter</h3><div class="when" style="margin-bottom:6px">Perusahaan manufaktur</div>
+<ul>
+<li>Menyusun production area layout berdasarkan kebutuhan manufaktur, posisi equipment, alur kerja, dan pemanfaatan ruang.</li>
+<li>Mendukung proyek relayout fasilitas, termasuk penambahan bangunan dan perluasan fasilitas produksi.</li>
+<li>Merancang equipment dan fasilitas kerja seperti worktable, jig, cabinet, dan peralatan pendukung.</li>
+<li>Membuat model 3D di SketchUp untuk visualisasi layout dan mendukung perencanaan teknis.</li>
+<li>Menyiapkan technical drawing di ZW3D untuk fabrikasi dan implementasi equipment.</li>
+<li>Menyesuaikan layout mengikuti perubahan proses produksi dan kebutuhan operasional.</li>
+<li>Berkontribusi pada aktivitas Continuous Improvement terkait space utilization, efisiensi workflow, dan workplace organization.</li>
+<li>Mendukung penerapan prinsip dasar Lean Manufacturing dalam optimasi proses dan fasilitas.</li>
+</ul></div></div>
+<div class="job"><div class="when">Okt 2022 – Feb 2023</div><div>
+<h3>Data Entry Intern (PKL)</h3><div class="when" style="margin-bottom:6px">Perusahaan penerbangan, Data Center</div>
+<ul><li>Menginput dan memelihara data operasional pada sistem digital.</li><li>Menjaga akurasi dan keteraturan data.</li><li>Membantu operasional Data Center melalui kegiatan administrasi dan pengelolaan data.</li></ul></div></div>
+<div class="job"><div class="when">2024 – sekarang</div><div>
+<h3>S1 Industrial Engineering</h3><div class="when" style="margin-bottom:6px">Universitas Teknologi Bandung, konsentrasi Manufacturing</div></div></div>
+<div class="job"><div class="when">Lulus 2024</div><div>
+<h3>SMK Negeri 1 Cijulang</h3><div class="when">Office Management Automation</div></div></div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<p class="sub">Dikelompokkan berdasarkan pengalaman nyata, tanpa persentase kemahiran.</p>
+<div class="skills">
+<div><h3>Engineering Design</h3><ul><li>SketchUp</li><li>ZW3D</li><li>AutoCAD <small>Basic–Intermediate</small></li></ul></div>
+<div><h3>Manufacturing &amp; IE</h3><ul><li>Production Layout Design</li><li>Facility Planning</li><li>Workflow Analysis</li><li>Space Utilization</li><li>Equipment &amp; Workplace Design</li><li>Continuous Improvement Support</li><li>Foundational Lean Manufacturing</li><li>Basic Ergonomic Considerations</li></ul></div>
+<div><h3>Data &amp; Productivity</h3><ul><li>Microsoft Office</li><li>Google Sheets</li><li>Looker Studio <small>Basic, pengalaman proyek akademik</small></li></ul></div>
+</div></div></section>
+
+<section id="contact" style="border:0"><div class="wrap">
+<h2>Contact</h2>
+<p class="sub">Terbuka untuk diskusi dan peluang di bidang manufacturing, Industrial Engineering, dan Continuous Improvement.</p>
+<div class="contact">
+<a href="mailto:alfahmilabibnabil@gmail.com"><span>Email</span><b>alfahmilabibnabil@gmail.com</b></a>
+<a href="https://wa.me/6285777324671" target="_blank" rel="noopener"><span>WhatsApp</span><b>085777324671</b></a>
+<a href="https://www.linkedin.com/in/nabil-alfahmi-labib-291751264/" target="_blank" rel="noopener"><span>LinkedIn</span><b>Nabil Alfahmi Labib</b></a>
+<a href="https://drive.google.com/file/d/1FNogRhrh3VLDQW0hsPABeX9MA3orVOz/view?usp=sharing" target="_blank" rel="noopener"><span>Curriculum Vitae</span><b>Buka CV (Google Drive)</b></a>
+</div></div></section>
+</main>
+<footer><div class="wrap">© Nabil Alfahmi Labib. Dokumen proyek ditampilkan setelah disensor dari informasi rahasia perusahaan.</div></footer>
+
+<dialog id="dlg" aria-labelledby="dt"><div class="bar"><span id="dn"></span><button type="button" id="cl">Close</button></div><div class="in" id="db"></div></dialog>
+
+<script>
+/* ===== DATA PROYEK — edit teks di sini =====
+   Gambar: taruh file di folder assets/ lalu pastikan namanya sama dengan 'img'.
+   Jika file belum ada, otomatis tampil placeholder. */
+const TODO="Belum ada data. Akan ditambahkan setelah dokumentasi tersedia.";
+const L=["Project Overview","Background","Objective","My Contribution","Engineering Approach","Tools & Methods","Design / Implementation","Outcome / Status","Supporting Evidence"];
+const P=[
+{no:"01",t:"Production Layout & Facility Planning",cat:"Facility Planning / Manufacturing Engineering",st:"Applied in Workplace",k:"work",
+ d:"Perancangan layout area produksi dan dukungan perencanaan relayout serta perluasan fasilitas.",
+ r:"Pekerjaan inti saya: layout, drawing teknis, dan visualisasi 3D.",
+ img:"assets/01-layout.jpg",
+ s:{"Project Overview":"Perancangan production area layout dan dukungan perencanaan fasilitas, termasuk relayout dan penambahan bangunan.",
+ "Background":"Fasilitas produksi membutuhkan layout yang mempertimbangkan kebutuhan proses, penempatan equipment, workflow, space utilization, dan perubahan fasilitas di masa depan.",
+ "My Contribution":["Menyusun layout area produksi sesuai kebutuhan manufaktur.","Mendukung relayout produksi dan perencanaan perluasan fasilitas.","Menyiapkan layout drawing teknis dan visualisasi 3D.","Mendukung evaluasi posisi equipment dan susunan area produksi."],
+ "Engineering Approach":"Layout dirancang berdasarkan kebutuhan improvement. Saya melakukan riset kebutuhan dan perhitungan sederhana, antara lain kebutuhan luas area dan jarak antar mesin.",
+ "Tools & Methods":"SketchUp (model 3D), ZW3D (technical drawing).",
+ "Outcome / Status":"Diterapkan sebagai bagian dari pekerjaan saya. Hasil terukur seperti luas area atau penghematan tidak dicantumkan karena belum ada data yang terverifikasi.",
+ "Supporting Evidence":null}},
+{no:"04",t:"Manufacturing Equipment & Workplace Design",cat:"Engineering Design / Equipment Support",st:"Applied in Workplace",k:"work",
+ d:"Perancangan worktable, machine stand, jig, cabinet, dan peralatan pendukung proses produksi.",
+ r:"Merancang, melakukan perhitungan, dan menyiapkan semua drawing fabrikasi; divalidasi sampai equipment siap pakai.",
+ img:"assets/04-equipment.jpg",
+ s:{"Project Overview":"Perancangan equipment dan fasilitas kerja yang dibuat oleh workshop fabrikasi in-house, termasuk worktable, machine stand, jig, dan cabinet. Ini adalah pekerjaan equipment secara umum, bukan khusus Karakuri.",
+ "Background":"Kebutuhan equipment datang dari improvement proses atau tempat kerja, sehingga desain harus menjawab fungsi yang diminta dan bisa dibuat secara praktis.",
+ "My Contribution":["Menerjemahkan kebutuhan proses menjadi desain teknis.","Melakukan riset dan perhitungan, antara lain perkiraan beban dan pemilihan ukuran profil hollow, dimensi berdasarkan ergonomi dasar dan tinggi kerja operator, serta estimasi kapasitas simpan.","Memilih material, profil rangka, dan metode fabrikasi (misalnya las atau rivet nut).","Menyiapkan seluruh drawing untuk workshop fabrikasi in-house dan memvalidasi sampai equipment siap dipakai."],
+ "Engineering Approach":"Pertimbangan desain meliputi fungsi, dimensi, kebutuhan operator, ergonomi dasar, pertimbangan mekanis dasar, material, dan kemudahan fabrikasi serta perakitan. Perhitungan bersifat sederhana dan praktis; tidak mengklaim simulasi struktur lanjutan.",
+ "Tools & Methods":"ZW3D, SketchUp, AutoCAD.",
+ "Outcome / Status":"Equipment yang dirancang telah dibuat dan dipakai di area kerja. Belum ada data terukur yang dicantumkan.",
+ "Supporting Evidence":null}},
+{no:"05",t:"Warehouse Material Management & QCC",cat:"Continuous Improvement / Warehouse / Visual Management",st:"Team Project",k:"team",
+ d:"Inisiatif QCC untuk inovasi sistem warehouse material management di area manufaktur.",
+ r:"Anggota tim: Kanban, identifikasi barcode, 5S, dan desain tangga lipat untuk area sempit.",
+ img:"assets/05-warehouse.jpg",
+ s:{"Project Overview":"Inisiatif tim (QCC) untuk memperbaiki sistem pengelolaan material di warehouse area manufaktur. Ini hasil kerja tim, bukan pencapaian individu.",
+ "Objective":"Tujuan QCC secara keseluruhan: "+TODO,
+ "My Contribution":["Terlibat dalam penerapan Kanban system.","Terlibat dalam identifikasi material dengan barcode khusus dan pelacakan material berbasis sistem.","Terlibat dalam penerapan 5S.","Merancang alat bantu untuk menjangkau lokasi simpan yang tinggi di area terbatas, dengan konsep tangga lipat."],
+ "Engineering Approach":"Tangga lipat dipilih karena area sempit tidak memungkinkan tangga permanen. Desain mempertimbangkan keterbatasan ruang.",
+ "Tools & Methods":"Kanban, barcode, 5S, ZW3D / drawing teknis.",
+ "Outcome / Status":"Solusi yang diterapkan dan hasil terdokumentasi: "+TODO,
+ "Supporting Evidence":null}},
+{no:"03",t:"Value Stream Mapping & Lead Time Analysis",cat:"Lean Manufacturing / Process Analysis",st:"Team Project",k:"team",
+ d:"Analisis proses untuk mengidentifikasi non-value-added activities dan peluang pengurangan lead time.",
+ r:"Observasi lapangan, perhitungan lead time, identifikasi waste, dan drawing layout one-piece flow.",
+ img:"assets/03-vsm.jpg",
+ s:{"Project Overview":"Proyek tim untuk menganalisis proses manufaktur dengan Value Stream Mapping, mengidentifikasi non-value-added activities, dan mengeksplorasi pengurangan lead time pada satu proses assembly percobaan.",
+ "Objective":"Mengurangi lead time dengan menghilangkan waste. One-piece flow dinilai layak untuk proses assembly yang dikaji.",
+ "My Contribution":["Ikut observasi lapangan.","Berkontribusi pada perhitungan lead time.","Membantu mengidentifikasi waste dari non-value-added activities.","Menyiapkan drawing layout perubahan mengikuti konsep one-piece flow sebagai solusi."],
+ "Engineering Approach":"Alur proses hasil observasi dihubungkan dengan lead time dan waste yang teridentifikasi, lalu diterjemahkan menjadi rancangan layout one-piece flow.",
+ "Tools & Methods":"Value Stream Mapping, observasi lapangan, perhitungan lead time, layout drawing.",
+ "Outcome / Status":"One-piece flow disajikan sebagai solusi yang dirancang dan diusulkan. Data implementasi dan hasil sebelum-sesudah: "+TODO,
+ "Supporting Evidence":null}},
+{no:"02",t:"Data Analytics Dashboard Development",cat:"Data Analytics / Business Intelligence",st:"Academic Project",k:"academic",
+ d:"Prototipe dashboard dari tugas kuliah Data Analytics: Consumer Analytics dan Marketing Analytics.",
+ r:"Menyusun data di Google Sheets dan membuat visualisasi di Looker Studio.",
+ img:"assets/02-dashboard.jpg",
+ s:{"Project Overview":"Proyek mata kuliah Data Analytics berupa prototipe dashboard. Ini bukan dashboard produksi pabrik dan tidak memantau output manufaktur.",
+ "Background":"Dua perspektif dashboard: Consumer Analytics (profil konsumen, perilaku, preferensi metode pembayaran) dan Marketing Analytics (pemasukan dan pengeluaran per periode, perbandingan revenue vs expenditure). Isi final mengikuti dataset proyek.",
+ "My Contribution":["Menyusun dan merapikan data di Google Sheets.","Membuat visualisasi di Looker Studio.","Mengatur informasi dashboard sesuai kebutuhan analisis.","Mengeksplorasi bagaimana data terstruktur dan dashboard dapat mendukung pengambilan keputusan."],
+ "Tools & Methods":"Google Sheets, Looker Studio.",
+ "Outcome / Status":"Prototipe akademik. Menunjukkan kemampuan awal saya dalam menata data dan mengomunikasikan informasi secara visual.",
+ "Supporting Evidence":null}}
+];
+const $=s=>document.querySelector(s);
+const ph=f=>{const d=document.createElement("div");d.className="ph";d.textContent="PLACEHOLDER: "+f+" (ganti dengan gambar yang sudah disensor)";return d};
+const esc=t=>t.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const g=$("#grid");
+P.forEach((p,i)=>{
+ const c=document.createElement("article");c.className="card";c.dataset.k=p.k;
+ c.innerHTML=`<div class="top"><span>PROJECT ${p.no}</span><span class="badge ${p.k}">${p.st}</span></div><div class="body"><div class="im"></div><h3>${esc(p.t)}</h3><p class="cat">${esc(p.cat)}</p><p>${esc(p.d)}</p><p class="role"><b>My role:</b> ${esc(p.r)}</p><button class="btn" type="button" data-i="${i}">View details</button></div>`;
+ const im=new Image();im.src=p.img;im.alt="Dokumentasi "+p.t;im.loading="lazy";im.onerror=()=>im.replaceWith(ph(p.img));
+ c.querySelector(".im").append(im);g.append(c);
+});
+document.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{
+ document.querySelectorAll(".filters button").forEach(x=>x.setAttribute("aria-pressed",x===b));
+ g.querySelectorAll(".card").forEach(c=>c.hidden=!(b.dataset.f==="all"||c.dataset.k===b.dataset.f));
+});
+const dlg=$("#dlg");
+g.addEventListener("click",e=>{
+ const b=e.target.closest("button[data-i]");if(!b)return;
+ const p=P[b.dataset.i];
+ $("#dn").textContent="PROJECT "+p.no+" / "+p.st;
+ let h=`<h2 id="dt">${esc(p.t)}</h2><p class="cat">${esc(p.cat)}</p>`;
+ if(p.k==="team")h+=`<p class="note">Proyek tim. Bagian "My Contribution" menunjukkan kontribusi pribadi saya; hasil lain adalah milik tim.</p>`;
+ L.forEach(l=>{
+  if(!(l in p.s))return;const v=p.s[l];
+  h+=`<h4>${l}</h4>`;
+  if(v===null)h+=`<p class="todo">Placeholder: gambar, drawing, atau dokumen yang sudah disensor akan ditambahkan di sini.</p>`;
+  else if(Array.isArray(v))h+="<ul>"+v.map(x=>`<li>${esc(x)}</li>`).join("")+"</ul>";
+  else h+=`<p>${esc(v)}</p>`;
+ });
+ $("#db").innerHTML=h;dlg.showModal();dlg.scrollTop=0;
+});
+$("#cl").onclick=()=>dlg.close();
+dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+const links=[...document.querySelectorAll("nav a")];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle("on",a.hash==="#"+e.target.id))}),{rootMargin:"-40% 0px -55% 0px"});
+document.querySelectorAll("main section").forEach(s=>io.observe(s));
+</script>
+</body>
+</html>
